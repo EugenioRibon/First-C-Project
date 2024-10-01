@@ -8,10 +8,10 @@
         private SpeedRadar speedRadar;
         private bool isChasing;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, SpeedRadar radar = null) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
+            speedRadar = radar;
             isChasing = false;
         }
 
@@ -19,13 +19,16 @@
         {
             if (isPatrolling)
             {
-                speedRadar.TriggerRadar(vehicle);
-                string meassurement = speedRadar.GetLastReading();
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
-            }
-            else
-            {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                if (speedRadar != null)
+                {
+                    speedRadar.TriggerRadar(vehicle);
+                    string meassurement = speedRadar.GetLastReading();
+                    Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                }
+                else
+                {
+                    Console.WriteLine(WriteMessage($"has no active radar."));
+                }
             }
         }
 
@@ -70,10 +73,17 @@
         }
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null)
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage("No radar to report history."));
             }
         }
     }

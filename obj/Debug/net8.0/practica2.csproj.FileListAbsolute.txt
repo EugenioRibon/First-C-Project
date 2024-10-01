@@ -12,3 +12,4 @@
 /Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.pdb
 /Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.genruntimeconfig.cache
 /Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/ref/practica2.dll
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.sourcelink.json
