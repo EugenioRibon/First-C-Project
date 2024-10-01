@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="24.7.16">
+  <diagram name="Page-1" id="prY0YrajODfIATNrVTmS">
+    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XKkMJ9thjSGrvg6Von08-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-2" target="XKkMJ9thjSGrvg6Von08-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-2" target="XKkMJ9thjSGrvg6Von08-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Vehicle&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;- typeOfVehicle: str&lt;br&gt;- plate: str&lt;br&gt;- speed: float&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+ ToString() : str&amp;nbsp;&lt;br&gt;+ GetTypeOfVehicle() : str&amp;nbsp;&lt;br&gt;+ GetPlate() : str&lt;br&gt;+ GetSpeed() : float&lt;br&gt;+ SetSpeed(speed: float) : void&amp;nbsp;&lt;br&gt;+ WriteMessage(message: str) : str&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-4" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Taxi&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;- isCarryingPassengers: bool&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+ startRide() : void&lt;br&gt;+ stopRide() : void&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-5" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;PoliceCar&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;- isPatrolling: bool&lt;br&gt;- plate: str&lt;br&gt;- speed: float&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+ ToString() : str&amp;nbsp;&lt;br&gt;+ GetTypeOfVehicle() : str&amp;nbsp;&lt;br&gt;+ GetPlate() : str&lt;br&gt;+ GetSpeed() : float&lt;br&gt;+ SetSpeed(speed: float) : void&amp;nbsp;&lt;br&gt;+ WriteMessage(message: str) : str&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-6" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;IMessageWritter&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+WriteMessage(customMessage: str) : str&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-7" target="XKkMJ9thjSGrvg6Von08-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-7" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;SpeedRadar&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;- plate: str&lt;br&gt;- speed: float&lt;br&gt;- legalSpeed: float&lt;br&gt;- SpeedHistory: List&amp;lt;float&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+ TriggerRadar(vehicle: Vehicle) : void&lt;br&gt;+ GetLastReading() : string&lt;br&gt;+ WriteMessage(radarReading: str) : str&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-2" target="XKkMJ9thjSGrvg6Von08-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-16" target="XKkMJ9thjSGrvg6Von08-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-16" target="XKkMJ9thjSGrvg6Von08-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-16" target="XKkMJ9thjSGrvg6Von08-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-16" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;PoliceStation&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;- policeCars: List&amp;lt;PoliceCar&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+ RegisterCar(policeCar: PoliceCar) : void&lt;br&gt;+ ActivateAlert(offenderPlate: str) : void&lt;br&gt;+ SendAlert(offenderPlate: str) : void&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="585" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-19" target="XKkMJ9thjSGrvg6Von08-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XKkMJ9thjSGrvg6Von08-19" target="XKkMJ9thjSGrvg6Von08-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKkMJ9thjSGrvg6Von08-19" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;City&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;- city: str&lt;br&gt;- policeStation: PoliceStation&lt;br&gt;- RegisteredTaxis: List&amp;lt;Taxi&amp;gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+ GetCity() : str&lt;br&gt;+ RegisterTaxi(taxi: Taxi) : void&lt;br&gt;+ PrintLicenses() : void&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="585" width="180" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

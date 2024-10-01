@@ -3,8 +3,7 @@ namespace practica2
     class PoliceStation : IMessageWritter
     {
         //constant string as TypeOfVehicle wont change allong PoliceCar instances.
-        private List<PoliceCar> policeCars;
-        private string ciudad = "Madrid";
+        public List<PoliceCar> policeCars { get; private set; }
 
         public PoliceStation()
         {
@@ -15,7 +14,7 @@ namespace practica2
         public void RegisterCar(PoliceCar car)
         {
             policeCars.Add(car);
-            Console.WriteLine(WriteMessage($"Police car with plate: {car.GetPlate} registered"));
+            Console.WriteLine(WriteMessage($"Police car with plate: {car.GetPlate()} registered"));
         }
 
         public void ActivateAlert(string offenderPlate)
@@ -28,12 +27,16 @@ namespace practica2
         {
             foreach (var car in policeCars)
             {
-                car.ReceiveAlert(offenderPlate);
+                if (car.IsPatrolling())
+                {
+                    car.ReceiveAlert(offenderPlate);
+                }
+
             }
         }
         public string WriteMessage(string customMessage)
         {
-            return $"[PoliceStation in {ciudad}] {customMessage}";
+            return $"[PoliceStation] {customMessage}";
         }
     }
 }

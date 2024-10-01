@@ -1,0 +1,14 @@
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/bin/Debug/net8.0/practica2
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/bin/Debug/net8.0/practica2.deps.json
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/bin/Debug/net8.0/practica2.runtimeconfig.json
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/bin/Debug/net8.0/practica2.dll
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/bin/Debug/net8.0/practica2.pdb
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.AssemblyInfoInputs.cache
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.AssemblyInfo.cs
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.csproj.CoreCompileInputs.cache
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.dll
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/refint/practica2.dll
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.pdb
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/practica2.genruntimeconfig.cache
+/Users/eugenio/Downloads/Uni/Paradigmas y técnicas de programación/P2/obj/Debug/net8.0/ref/practica2.dll
